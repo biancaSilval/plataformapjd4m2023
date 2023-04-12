@@ -30,7 +30,14 @@ public class GameManager: MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
-    
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Jump"))
+        {
+            
+        }
+    }
 }
 
     
